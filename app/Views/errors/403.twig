@@ -1,0 +1,13 @@
+{# File name must be relative to app/Views #}
+{% extends "errors/general.twig" %}
+
+{% block title %}
+Error: 403 forbidden
+{% endblock %}
+
+{% block content %}
+
+{{ parent() }}
+<h2>403 Forbidden</h2>
+
+{% endblock %}

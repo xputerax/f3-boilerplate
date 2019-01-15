@@ -1,0 +1,13 @@
+{# File name must be relative to app/Views #}
+{% extends "errors/general.twig" %}
+
+{% block title %}
+Error: 404 Not Found
+{% endblock title %}
+
+{% block content %}
+
+{{ parent() }}
+<h2>404 Not Found</h2>
+
+{% endblock content %}
